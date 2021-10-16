@@ -20,7 +20,7 @@ import seaborn as sns # another plotting library
 
 #from matplotlib.dates import  DateFormatter
 
-file_path = 'C:/Users/Benedict/OneDrive/Spring 2021/IOT CSC 492/Python work/ESP32_data.csv'
+file_path = 'Input path to data set'
 
 #read in the DateTime Col as dateformat
 data = pd.read_csv(file_path, usecols=[0,3,4], parse_dates=['DateTime'], dayfirst=True,)
